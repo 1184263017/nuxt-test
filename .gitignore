@@ -1,0 +1,54 @@
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.envrc
+.sentryclirc
+*.pem
+*.key
+
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.pnp.*
+
+# Nuxt, Nitro, and content output
+.nuxt/
+.nuxtrc
+.output/
+.data/
+.nitro/
+.cache/
+/dist
+
+# Tests and quality-tool caches
+coverage/
+playwright-report/
+test-results/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Platform-specific deployment state
+.netlify/
+.vercel/
+.wrangler/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
